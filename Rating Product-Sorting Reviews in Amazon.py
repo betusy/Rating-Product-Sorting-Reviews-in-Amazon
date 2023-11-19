@@ -36,7 +36,6 @@ time_based_weighted_average(df, w1=28, w2=26, w3=24, w4=22) # 4.5955
 df['helpful_no'] = df['total_vote'] - df['helpful_yes']
 df.head()
 
-# wilson lower bound
 def wilson_lower_bound(up, down, confidence=0.95):
     """
     Wilson Lower Bound Score hesapla
